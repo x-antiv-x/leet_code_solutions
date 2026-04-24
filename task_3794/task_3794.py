@@ -1,0 +1,11 @@
+# LeetCode #3794 | Reverse String Prefix | [EASY]
+
+class Solution(object):
+    def reversePrefix(self, s, k):
+        """
+        :type s: str
+        :type k: int
+        :rtype: str
+        """
+
+        return s[:k:][::-1] + s[k:]
